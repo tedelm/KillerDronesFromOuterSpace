@@ -88,7 +88,7 @@ Schematic:</br>
 2. File the parts that not fit perfect </br>
 3. Super glue "Guider" to the "Bottom" </br>
 4. Screw or glue the "pipe" to the "Bottom"
-5. Test-fit the servo, see to it that the arm can move freely
+5. Test-fit the servo, see to it that the arm can move freely, connect slider and slider_arm to the servo with garden wire.
 6. Super glue the servo in place.
 7. Hotglue the electonics to the side :D
 
