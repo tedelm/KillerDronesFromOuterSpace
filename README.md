@@ -63,7 +63,7 @@ or browse for your version: <a href='https://www.mediafire.com/folder/dx6kfaasyo
     Tools->Board = Arduino nano </br>
     Tools->Processor = ATMega328p (Old bootloader)</br>
     Tools->Port = COMx</br>
-    </br>
+4. Press "Upload"    </br>
 
 # Connect to Arduino
 1. Connection:</br>
