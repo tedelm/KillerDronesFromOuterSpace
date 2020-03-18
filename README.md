@@ -19,7 +19,10 @@ Needed
 - [ ]  1 x 5v BUCK/BEC (min 25v stepdown) like LM2596
 - [ ]  1 x 4s/6s Lipo
 - [ ]  3cm Thin (~1mm) Garden wire (for pulley/servo)
-
+- [ ]  Super Glue
+- [ ]  Some thin (~24AWG) and some thick(er) (~14) gauge wire
+- [ ]  Some M3x6mm for motors (8pcs) and pipe (2pcs)
+- [ ]  HotGlue Gun
 
 # Flash BLHELI_S ESC´s
 Download: <a href='http://www.mediafire.com/file/23jnmpa0kiqry1k/BLHeliSuite16714902.zip/file'>Windows BLHELI_S Suite</a></br>
@@ -79,6 +82,14 @@ Schematic:</br>
     Servo (Vcc/+)  -> 5v BUCK/BEC Vcc/+ out</br>
     RevoltOSD TX4 (Pin Toggle) -> Arduino pin: A7</br>
     5v Buck/BEC (IN GND/VCC) -> VBAT GND/VCC</br>
+
+# Build
+1. Test-fit everything</br>
+2. File the parts that not fit perfect </br>
+3. Glue "Guider" to the "Bottom" </br>
+4. Screw or glue the "pipe" to the "Bottom"
+5. Hotglue the electonics to the side :D
+
 
 ```code
 ```
