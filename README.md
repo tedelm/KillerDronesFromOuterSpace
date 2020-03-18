@@ -65,8 +65,8 @@ or browse for your version: <a href='https://www.mediafire.com/folder/dx6kfaasyo
     Tools->Port = COMx</br>
 4. Press "Upload"    </br>
 
-# Connect to Arduino
-1. Connection:</br>
+# Connect to Arduino (schematic)
+Schematic:</br>
     ESC #1 (signal) -> Arduino pin: D9</br>
     ESC #1 (gnd, for signal) -> Arduino pin GND  </br>
     ESC #2 (signal) -> Arduino pin: D10</br>
