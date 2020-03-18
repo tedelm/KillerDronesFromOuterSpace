@@ -2,6 +2,9 @@
 </br>
 Have you ever wanted to shot your friends and enemies with Nerf darts launched from a drone? 
 </br>
+<img src='https://github.com/tedelm/KillerDronesFromOuterSpace/blob/master/IMG/pic1.jpg'>
+</br>
+</br>
 
 # Make
 Needed
