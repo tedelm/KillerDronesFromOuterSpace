@@ -16,7 +16,7 @@ Needed
 - [ ]  2 x Brushless motor, like 2207 (6s 1600kv or 4s 2400kv)
 - [ ]  1 x Arduino Nano
 - [ ]  1 x SG90 Servo (9g servo)
-- [ ]  1 x 5v BUCK/BEC (min 25v stepdown)
+- [ ]  1 x 5v BUCK/BEC (min 25v stepdown) like LM2596
 - [ ]  1 x 4s/6s Lipo
 - [ ]  3cm Thin (~1mm) Garden wire (for pulley/servo)
 

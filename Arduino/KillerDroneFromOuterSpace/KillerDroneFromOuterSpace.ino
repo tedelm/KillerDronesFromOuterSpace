@@ -32,7 +32,6 @@ void setup() {
     Feeder.attach(FeederPin);           //Attach PIN
     motor1.attach(motor1PIN);           //Attach PIN
     motor2.attach(motor2PIN);           //Attach PIN
-    //pinMode(TogglePIN, INPUT);   //Set toggle pin to read
     Serial.begin(57600);                //Serial Monitor
     motor1.write(motorMIN);
     motor2.write(motorMIN);
