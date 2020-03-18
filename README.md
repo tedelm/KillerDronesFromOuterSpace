@@ -86,9 +86,11 @@ Schematic:</br>
 # Build
 1. Test-fit everything</br>
 2. File the parts that not fit perfect </br>
-3. Glue "Guider" to the "Bottom" </br>
+3. Super glue "Guider" to the "Bottom" </br>
 4. Screw or glue the "pipe" to the "Bottom"
-5. Hotglue the electonics to the side :D
+5. Test-fit the servo, see to it that the arm can move freely
+6. Super glue the servo in place.
+7. Hotglue the electonics to the side :D
 
 
 ```code
