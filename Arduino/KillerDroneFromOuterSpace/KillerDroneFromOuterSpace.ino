@@ -87,7 +87,11 @@ void DeactiveateMotors(){
             Serial.println(MotorCMD);
             motor1.write(MotorCMD);
             motor2.write(MotorCMD);
-            delay(10);                   
+            delay(10);
+
+            //Manual interrupt, check if button pressed while motors are spinning down
+            ToggleState();
+
         }
 
     MotorCMD = motorMIN;        //Set motors MIN RPM
