@@ -40,12 +40,12 @@ void setup() {
 
 void FeedDart(){
  // from 0 to 180 degrees
-  for(angle = 10; angle < 180; angle++){                                  
+  for(angle = 10; angle < 180; angle = angle + 25){                                  
     Feeder.write(angle);               
     delay(5);                   
   } 
   // from 180 to 0 degrees
-  for(angle = 180; angle > 10; angle--){                                
+  for(angle = 180; angle > 10; angle = angle - 25){                                
     Feeder.write(angle);           
     delay(5);       
   } 
