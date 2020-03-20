@@ -25,6 +25,7 @@ int TogglePINActive = 640;  //(1023/5)*3.3=675, so to be safe we set limit to 64
 int FeederPin = 8;          //Servo
 int TogglePINState = 0;     // variable to store the read value
 int angle = 10;             //Servo angle
+int ServoSteps = 25;             //Servo angle
 int LastAction = 0;         //when button pressed
 //
 
@@ -40,12 +41,12 @@ void setup() {
 
 void FeedDart(){
  // from 0 to 180 degrees
-  for(angle = 10; angle < 180; angle = angle + 25){                                  
+  for(angle = 10; angle < 180; angle = angle + ServoSteps){                                  
     Feeder.write(angle);               
     delay(5);                   
   } 
   // from 180 to 0 degrees
-  for(angle = 180; angle > 10; angle = angle - 25){                                
+  for(angle = 180; angle > 10; angle = angle - ServoSteps){                                
     Feeder.write(angle);           
     delay(5);       
   } 
@@ -56,7 +57,7 @@ void EnableMotors(){
 
     if(LastAction == 0){
         //Ramp up motors MAX RPM
-        for(MotorCMD = motorMIN; MotorCMD < motorMAX; MotorCMD = MotorCMD + 25){                                  
+        for(MotorCMD = motorMIN; MotorCMD < motorMAX; MotorCMD = MotorCMD + 50){                                  
             Serial.println(MotorCMD);
             motor1.write(MotorCMD);
             motor2.write(MotorCMD);              
